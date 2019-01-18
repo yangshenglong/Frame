@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimaryTitleBar">#000000</color>
+    <color name="colorAccent">#97825c</color>
+    <color name="colorRed">#f91231</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gray">#666666</color>
+    <color name="gray_light">#999999</color>
+
+    <color name="transparent">#0000</color>
+    <color name="transparentBlack">#00000000</color>
+    <color name="colorNotCheck">#9b9c9b</color>
+    <color name="colorNotCheckTwo">#eed5a7</color>
+    <color name="colorIsCheck">#bb9a56</color>
+    <color name="colorYellow">#bda477</color>
+    <color name="colorYellowM">#fff5ee</color>
+    <color name="software_textColor_selected">#e09105</color>
+    <color name="login_bottom_text_yellow">#d97401</color>
+    <color name="software_textColor_unselected">#e8d0a2</color>
+    <color name="backBround">#f0f0f0</color>
+    <color name="backBround_one">#eaeaea</color>
+    <color name="huang">#97825c</color>
+    <color name="fontColor">#403728</color>
+    <color name="background_color">#f5f5f5</color>
+    <color name="transparent_background">#50000000</color>
+
+    <color name="line_gray">#cecece</color>
+
+    <color name="text_do_not_known">#97825c</color>
+    <color name="line_pop">#8f8f8f</color>
+    <color name="text_sure">#d1a14b</color>
+    <color name="pic_sure">#f4f4f4</color>
+    <color name="color_mine">#bbbbbb</color>
+    <color name="color_yellow_mine">#fde595</color>
+    <color name="color_yellow_s">#b98220</color>
+    <color name="color_yellow_m">#707070</color>
+    <color name="color_share">#eeeeee</color>
+    <color name="gray_search">#a6a6a6</color>
+
+</resources>

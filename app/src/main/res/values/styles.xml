@@ -1,0 +1,130 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryTitleBar</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/background_color</item>
+    </style>
+
+    <style name="Transparent">
+        <item name="android:windowBackground">@color/transparent_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+
+    <style name="myTransparent">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:background">#ffffff</item>
+    </style>
+
+    <!-- 自定义loading dialog -->
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:background">#ffffff</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:backgroundDimAmount">0.5</item>
+    </style>
+
+    //普通字体
+
+    <style name="textview_body">
+        <item name="android:textSize">@dimen/text_body</item>
+        <item name="android:textColor">@color/fontColor</item>
+    </style>
+
+    //整备专用普通字体
+
+    <style name="textview_zb_body">
+        <item name="android:textSize">@dimen/text_body</item>
+        <item name="android:textColor">@color/fontColor</item>
+        <item name="android:padding">@dimen/space_5</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/space_10</item>
+        <item name="android:layout_marginTop">@dimen/space_10</item>
+    </style>
+
+    //普通字体 黄色
+
+    <style name="textview_body_yellow">
+        <item name="android:textSize">@dimen/text_body</item>
+        <item name="android:textColor">@color/huang</item>
+    </style>
+    //大字体
+    <style name="textview_big">
+        <item name="android:textSize">@dimen/text_main</item>
+        <item name="android:textColor">@color/fontColor</item>
+    </style>
+    //大字体 黄色
+    <style name="textview_big_yellow">
+        <item name="android:textSize">@dimen/text_main</item>
+        <item name="android:textColor">@color/huang</item>
+    </style>
+
+    //小字体
+
+    <style name="textview_mini">
+        <item name="android:textSize">@dimen/text_mini</item>
+        <item name="android:textColor">@color/fontColor</item>
+    </style>
+
+    //小字体 黄色
+
+    <style name="textview_mini_yellow">
+        <item name="android:textSize">@dimen/text_mini</item>
+        <item name="android:textColor">@color/huang</item>
+    </style>
+    //横线 黑色
+
+    <style name="view_horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/huang</item>
+    </style>
+    //横线 灰色
+
+    <style name="view_horizontal_gray">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/line_gray</item>
+    </style>
+
+    //横线 灰色 自动缩进
+
+    <style name="view_horizontal_gray_auto">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/line_gray</item>
+        <item name="android:layout_marginLeft">@dimen/space_10</item>
+        <item name="android:layout_marginRight">@dimen/space_10</item>
+    </style>
+
+
+    <style name="My_Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
